@@ -21,3 +21,4 @@ WORKDIR /app
 RUN npm install puppeteer
 
 COPY ./nginx.conf /nginx.conf
+COPY ./default.conf.template /default.conf.template
